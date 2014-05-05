@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 May, 2014, 5:22:29 PM
+    Author     : neo
+*/
+
+@font-face {
+    font-family: 'Walter Turncoat';
+    src: url(../fonts/WalterTurncoat.ttf)
+    
+}
+
+body {
+    background-image: url(../images/back.jpg);
+    background-attachment: fixed;
+    font-family: 'Walter Turncoat', cursive;
+    color: white;
+    
+}
+
+.hasRightBorder {
+    border-right: 1px solid white;
+}
+
+.transparent {
+    background: transparent;
+    border:none;
+    color:white;
+    text-align: center;
+}
+
+.transparent h2 {
+    color:white;
+    text-spacing: ideograph-numeric;
+}
+
+.transparent p {
+    color:white;
+    font-size: large;
+}
+
+.smallText {
+    font-size: small;
+}
+
+
+
+
+.hasBorder {
+    border-radius: 10px;
+    border : 2px solid white;
+}
+
+.roundDiv-small {
+    /*border-radius: 50px;*/
+    /*min-width: 100px;*/
+    /*min-height: 100px;*/
+    border-color: white;
+    font-size: 50pt;
+    /*border: 2px solid white;*/
+    text-align: center;
+    padding-top:20px;
+}
